@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedu Box</title>
+    <style>
+        h1:hover {
+            color: skyblue;
+            background-color: brown;
+            width: 50%;
+        }
+
+        .middle-person:focus {
+            color: blue;
+            font-weight: 700;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        li:first-child {
+            color: chocolate;
+        }
+
+        li:last-child {
+            background-color: yellow;
+            width: 50%;
+        }
+
+        li:nth-child(2n) {
+            color: darkblue;
+        }
+
+        li:nth-child(2n+1) {
+            color: deeppink;
+            background-color: black;
+        }
+
+        h3::before {
+            content: "Hello ";
+        }
+
+        h3::after {
+            content: " Gello ";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">Google e Jao</a>
+    <a href="https://www.googleadservices.com">Never Visited</a>
+    <a href="https://www.airshipexpressbd.com/">Airship Express e jao</a>
+    <br>
+    <h3>Middle Size Hearder -1</h3>
+    <h3>Middle Size Hearder -2</h3>
+    <h3>Middle Size Hearder -3</h3>
+    <h3>Middle Size Hearder -4</h3>
+    <h3>Middle Size Hearder -5</h3>
+    <h3>Middle Size Hearder -6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>kalia</li>
+        <li>Malia</li>
+        <li>Salia</li>
+        <li>Lafia</li>
+        <li>Badhiya</li>
+    </ul>
+</body>
+
+</html>
